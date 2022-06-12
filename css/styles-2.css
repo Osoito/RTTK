@@ -1,0 +1,203 @@
+.header-container{
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 10;
+	
+	background-image: url(../media/img/fairy%20core-9.jpg);
+	padding: 2px;
+}
+.header-lungname{
+	text-shadow:darkred 1px 1px;
+	color: blanchedalmond;
+}
+.header-nav ul{
+	display: inline;
+	margin: 0 1em;
+	padding: 0;
+	font-family: 宋体;
+}
+.header-nav li{
+	display: inline;
+	margin: 0.5em;
+}
+.header-nav li a{
+	color: azure;
+	text-shadow:darkred 1px 1px;
+	text-decoration: none;
+}
+.header-nav li a:hover{
+	color: blanchedalmond;
+	text-shadow:darkred 1px 1px;
+	transition: 0.3s;
+}
+.maindocument-wrapper{
+	position:relative;
+	top: 0.5em;
+	/* 下滑时页首不会遮住内容 */
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0;
+}
+.middle-container{
+	grid-column: 2;
+	grid-row: 1;
+	margin: 0.7em 0.3em;
+	padding: 0 0.7em 0;
+	min-width: 45em;
+	border-left: dashed 2px darkgray;
+	border-right: dashed 2px darkgray;
+	}
+.comic-wrapper{
+	min-height: 20em;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	border: solid lightgrey 2px;
+}
+.comic-picture-container{
+	width: 250px;
+	padding-right: 13px;
+	border-right: solid 2px lightgrey;
+}
+.comic-picture-container img{
+	width: 250px;
+	min-height: 20em;
+}
+.right-container{
+	position: fixed;
+	top: 0.3em;
+	right: 7px;
+	grid-column: 3;
+	grid-row: 1;
+	margin: 2.3em;
+	width: 19.7em;
+	overflow: hidden;
+}
+.left-container{
+	grid-column: 1;
+	grid-row: 1;
+	margin: 0.7em 0 1em 3em;
+	padding-right: 7px;
+}
+.news-container{
+	background-image: url(../media/img/装饰图片/news-title-background.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	border: solid lightgray 2px;
+	padding: 10px;
+}
+.news-title{
+	font-family: 仿宋;
+	letter-spacing: -10px;
+	font-weight: 900;
+	font-size: 350%;
+	padding: 53px 0 0 0.3em;
+	margin-bottom: 1em;
+}
+.news-info div{
+	font-size: 77%;
+	left: 3px;
+	padding: 10px 0 10px;
+	line-height: 1.5em;
+	border-bottom: dashed lightgray 1px;
+}
+.activity-container{
+	border: solid lightgray 2px;
+	padding: 13px;
+	padding-left: 5px;
+	height: 10em;
+}
+.music-title{
+	margin-top: -1em;
+	height: 3em;
+}
+.music-title h1{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.7em;
+}
+.music-title h2{
+	margin-top: -0.7em;
+	margin-bottom: -0.3em;
+	padding-left: 3px;
+	padding-bottom: 7px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.3em;
+	border-bottom: dashed lightgrey 1px;
+}
+.music-title h3{
+	text-align: end;
+	font-size: 120%;
+	font-weight: 700;
+	font-family: 仿宋;
+	color: dimgrey;
+}
+.comic-text-container{
+	float: right;
+	padding: 1em 0.3em;
+	width: 60%;
+	line-height: 1.3em;
+}
+.comic-ch_title{
+	font-family: 宋体;
+	font-weight: 900;
+	display: table;
+	font-size: 145%;
+	padding: 5px 0;
+	margin-bottom: 0.5em;
+}
+.comic-eng_title{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 900;
+	display: table;
+	font-size: 120%;
+	padding: 0 0 0.5em 5px;
+	border-bottom: solid 2px lightgrey;
+}
+.comic-author, .comic-chapters, .comic-translator{
+	display: inline-block;
+	padding: 3px 5px;
+	margin: 0.5em 0.8em 0.5em 0;
+}
+.comic-discription, .comic-saying{
+	letter-spacing: 1.5px;
+	margin-bottom: 1em;
+	padding: 10px;
+	border: solid 1px darkred;
+}
+.comic-saying{
+	border: none;
+}
+.comic-info-container{
+}
+.comic-operator-container{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: solid lightgray 2px;
+}
+.comic-operator-container a{
+	text-decoration: none;
+	font-weight: 800;
+	color: black;
+}
+.comic-download, .comic-read{
+	display: inline-block;
+	padding: 5px;
+	padding-right: 7px;
+}
+.comic-download:hover, .comic-read:hover{
+	font-weight: 900;
+	background-color: lightgray;
+	transition: 0.3s;
+}
+
+.left-ad-container{
+	margin-bottom: 0.5em;
+	box-sizing: border-box;
+}
+.left-ad-container img{
+	width: 20em;
+	padding: 5px;
+	border: solid 2px lightgrey;
+}
+
