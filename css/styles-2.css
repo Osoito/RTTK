@@ -223,8 +223,13 @@
 	.right-container{
 		position: relative;
 		top: -3.5em;
+		left: 1rem;
 	}
 	.header-container{
 		width: 48rem;
+	}
+	.comic-picture-container img{
+		width: 200px;
+		min-height: 100%;
 	}
 }
