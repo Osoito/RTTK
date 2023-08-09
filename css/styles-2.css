@@ -271,6 +271,71 @@
 	padding: 5px;
 	border: solid 2px lightgrey;
 }
+
+.game-wrapper{
+	border: solid black 2px;
+	padding: 1em;
+	margin-bottom: 0.7em;
+	background-color: seagreen;
+	background-image: url("../media/img/其他图片/harvest.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 40%;
+}
+.game-wrapper a{
+	text-decoration: none;
+}
+.game-text-container{
+	width: 60%;
+	padding: 1em;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.game-text-container{
+	box-shadow:inset 0px 0px 10px black;
+}
+.game-title{
+	font-family: fantasy;
+	font-size: 4.5em;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px palegreen;
+	text-shadow: 0px 0px 10px black;
+}
+.game-author-container{
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	grid-template-columns: 30% 70%;
+}
+.game-author-container :hover{
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	font-weight: 900;
+	transition: 0.3s;
+}
+.game-author{
+	display: inline-block;
+	padding: 5px;
+	margin-right: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.game-info-container{
+	padding: 0.5em;
+	padding-top: 1em;
+	border-top: solid 2px greenyellow;
+}
+.game-info-story{
+	font-weight: bold;
+}
+/* .game-image-container{
+	float: right;
+	
+}
+.game-image-container img{
+	max-width: 250px;
+	min-width: auto;
+	min-height: 100%;
+	padding: 0.1em;
+} */
+
 /* 当用户设备为窄屏时,隐藏左侧边栏,使右侧边栏固定在窗口右侧并不脱离于x轴文档流 */
 @media (max-width: 93em){
 	.left-container{
