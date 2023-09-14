@@ -1,0 +1,383 @@
+
+.header-container{
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 10;
+	
+	background-image: url(../media/img/fairy%20core-9.jpg);
+	padding: 2px;
+	
+	box-shadow: 0px 3px 6px;
+}
+.header-lungname{
+	text-shadow:darkred 1px 1px;
+	color: blanchedalmond;
+}
+.header-nav ul{
+	display: inline;
+	margin: 0 1em;
+	padding: 0;
+	font-family: 宋体;
+}
+.header-nav li{
+	display: inline;
+	margin: 0.5em;
+}
+.header-nav li a{
+	color: azure;
+	text-shadow:darkred 1px 1px;
+	text-decoration: none;
+}
+.header-nav li a:hover{
+	color: blanchedalmond;
+	text-shadow:darkred 1px 1px;
+	transition: 0.3s;
+}
+.maindocument-wrapper{
+	position:relative;
+	top: 0.1em;
+	/* 滚动条在最顶端时页首不会遮住内容 */
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0;
+}
+.middle-container{
+	grid-column: 2;
+	grid-row: 1;
+	margin: 0.7em 0.3em;
+	padding: 0 0.7em 0;
+	min-width: 45em;
+	border-left: dashed 2px darkgray;
+	border-right: dashed 2px darkgray;
+	}
+.comic-wrapper{
+	min-height: 21.7em;
+	padding: 0.5em;
+	padding-bottom: 0.3em;
+	margin-bottom: 0.7em;
+	border: solid lightgrey 2px;
+}
+.comic-wrapper:hover{
+	box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.15) ;
+	transition: 0.3s;
+}
+
+.comic-picture-container{
+	max-width: 250px;
+	min-width: auto;
+	padding-right: 1.7%;
+	border-right: solid 2px lightgrey;
+}
+.comic-picture-container img{
+	max-width: 250px;
+	min-width: auto;
+	min-height: 100%;
+	padding: 0.1em;
+}
+.comic-picture-container img:hover{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) ;
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.comic-text-container{
+	float: right;
+	padding: 1em 0.3em;
+	width: 60%;
+	line-height: 1.3em;
+}
+.comic-ch_title{
+	font-family: 宋体;
+	font-weight: 900;
+	display: table;
+	font-size: 145%;
+	padding: 5px 0;
+	margin-bottom: 0.5em;
+}
+.comic-eng_title{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 900;
+	display: table;
+	font-size: 120%;
+	padding: 0 0 0.5em 5px;
+	border-bottom: solid 2px lightgrey;
+}
+.comic-author, .comic-chapters, .comic-translator{
+	display: inline-block;
+	padding: 3px 5px;
+	margin: 0.5em 0.8em 0.5em 0;
+}
+.comic-discription, .comic-saying{
+	letter-spacing: 1.5px;
+	margin-bottom: 1em;
+	padding: 10px;
+	border: solid 1px darkred;
+}
+.comic-saying{
+	border: none;
+}
+.comic-info-container{
+}
+.comic-operator-container{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: solid lightgray 2px;
+}
+.comic-operator-container a{
+	text-decoration: none;
+	font-weight: 800;
+	color: black;
+}
+.comic-download, .comic-read{
+	display: inline-block;
+	padding: 5px;
+	padding-right: 7px;
+}
+.comic-download:hover, .comic-read:hover{
+	font-weight: 900;
+	background-color: lightgray;
+	transition: 0.3s;
+}
+.topindex-pic{
+	display: grid;
+	grid-template-columns: 33% 67%;
+	align-items: center;
+}
+.bottomindex-pic img, .topindex-pic img{
+	display: block;
+	max-width: 100%;
+}
+.topindex-pic img{
+	max-width: 100%;
+}
+.topindex-pic img:hover{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) ;
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.bottomindex-container, .topindex-container{
+	max-width: 100%;
+	display: grid;
+	margin-bottom: 0.7em;
+}
+.topindex-container{
+	padding-top: 0.7em;
+	border-top: dashed 2px darkgray;
+}
+.bottomindex-container{
+	padding-bottom: 0.7em;
+	border-bottom: dashed 2px darkgray;
+}
+#RB-bottomindex-container{
+	grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+#vattu-bottomindex-container{
+	grid-template-columns: 25% 25% 25% 25%;
+}
+#OoT-bottomindex-container{
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 4em;
+}
+#OoT-bottomindex-container img{
+}
+.bottomindex-container:hover{
+}
+.bottomindex-pic img{
+	object-fit: cover;
+}
+.bottomindex-pic img:hover{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) ;
+	transform: scale(1.35);
+	transition: 0.4s;
+}
+.right-container{
+	position: fixed;
+	top: 0.3em;
+	right: 7px;
+	grid-column: 3;
+	grid-row: 1;
+	margin: 2.3em;
+	width: 19.7em;
+	overflow: auto;
+	z-index: -1;
+}
+.left-container{
+	grid-column: 1;
+	grid-row: 1;
+	margin: 0.7em 0 1em 3em;
+	padding-right: 7px;
+}
+.news-container{
+	background-image: url(../media/img/装饰图片/news-title-background.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	border: solid lightgray 2px;
+	padding: 10px;
+}
+.news-title{
+	font-family: 仿宋;
+	letter-spacing: -10px;
+	font-weight: 900;
+	font-size: 350%;
+	padding: 53px 0 0 0.3em;
+	margin-bottom: 1em;
+}
+.news-info div{
+	font-size: 77%;
+	left: 3px;
+	padding: 10px 0 10px;
+	line-height: 1.5em;
+	border-bottom: dashed lightgray 1px;
+	color: dimgrey;
+}
+.activity-container{
+	border: solid lightgray 2px;
+	padding: 13px;
+	padding-left: 5px;
+	height: 10em;
+}
+.music-title{
+	margin-top: -1em;
+	height: 3em;
+}
+.music-title h1{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.7em;
+}
+.music-title h2{
+	margin-top: -0.7em;
+	margin-bottom: -0.3em;
+	padding-left: 3px;
+	padding-bottom: 7px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.3em;
+	border-bottom: dashed lightgrey 1px;
+}
+.music-title h3{
+	text-align: end;
+	font-size: 120%;
+	font-weight: 700;
+	font-family: 仿宋;
+	color: dimgrey;
+}
+
+.left-poster-container{
+	margin-bottom: 0.3em;
+	box-sizing: border-box;
+}
+.left-poster-container img{
+	width: 20em;
+	padding: 5px;
+	border: solid 2px lightgrey;
+}
+
+.game-wrapper{
+	border: solid black 2px;
+	padding: 1em;
+	margin-bottom: 0.7em;
+	background-color: seagreen;
+	background-image: url("../media/img/其他图片/harvest.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 40%;
+}
+.game-wrapper a{
+	text-decoration: none;
+}
+.game-text-container{
+	width: 60%;
+	padding: 1em;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.game-text-container{
+	box-shadow:inset 0px 0px 10px black;
+}
+.game-title{
+	font-family: fantasy;
+	font-size: 4.5em;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px palegreen;
+	text-shadow: 0px 0px 10px black;
+}
+.game-author-container{
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	grid-template-columns: 30% 70%;
+}
+.game-author-container :hover{
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	font-weight: 900;
+	transition: 0.3s;
+}
+.game-author{
+	display: inline-block;
+	padding: 5px;
+	margin-right: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.game-info-container{
+	padding: 0.5em;
+	padding-top: 1em;
+	border-top: solid 2px greenyellow;
+}
+.game-info-story{
+	font-weight: bold;
+}
+/* .game-image-container{
+	float: right;
+	
+}
+.game-image-container img{
+	max-width: 250px;
+	min-width: auto;
+	min-height: 100%;
+	padding: 0.1em;
+} */
+
+/* 当用户设备为窄屏时,隐藏左侧边栏,使右侧边栏固定在窗口右侧并不脱离于x轴文档流 */
+@media (max-width: 93em){
+	.left-container{
+		display: none;
+	}
+	.middle-container{
+		grid-column: 1;
+	}
+	.right-container{
+		position: relative;
+	}
+}
+@media  (max-width: 700px){
+	.left-poster-container{
+		display: none;
+	}
+	.middle-container{
+		grid-column: 1;
+		width: 100%;
+		position: relative;
+		right: 1rem;
+	}
+	.right-container{
+		position: relative;
+		top: -3.5em;
+		left: 1rem;
+	}
+	.header-container{
+		width: 48rem;
+	}
+}
+
+.name{
+	text-align: center;
+	border: 2px solid antiquewhite;
+	background-color: floralwhite;
+	border-radius: 5px;
+	padding: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.name:hover{
+	box-shadow: 5px 10px;
+	transition: 5.5s;
+}
