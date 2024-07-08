@@ -215,6 +215,13 @@
 	border: solid lightgray 2px;
 	padding: 10px;
 }
+.news-container-2{
+	background-image: url(../media/img/装饰图片/2-news-title-background.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	border: solid lightgray 2px;
+	padding: 10px;
+}
 .news-title{
 	font-family: 仿宋;
 	letter-spacing: -10px;
