@@ -218,14 +218,14 @@
 	padding-right: 7px;
 }
 .news-container{
-	background-image: url(../media/img/装饰图片/news-title-background.png);
+	background-image: url(../media/img/Decorations/news-title-background.png);
 	background-size: 80%;
 	background-repeat: no-repeat;
 	border: solid lightgray 2px;
 	padding: 10px;
 }
 .news-container-2{
-	background-image: url(../media/img/装饰图片/2-news-title-background.png);
+	background-image: url(../media/img/Decorations/2-news-title-background.png);
 	background-size: 80%;
 	background-repeat: no-repeat;
 	border: solid lightgray 2px;
@@ -293,7 +293,7 @@
 	padding: 1em;
 	margin-bottom: 0.7em;
 	background-color: seagreen;
-	background-image: url("../media/img/其他图片/harvest.png");
+	background-image: url("../media/img/Other/harvest.png");
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: 40%;
